@@ -12,6 +12,8 @@
 		2F75059C1E53C3CD00582202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F75059A1E53C3CD00582202 /* Main.storyboard */; };
 		2F75059E1E53C3CD00582202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F75059D1E53C3CD00582202 /* Assets.xcassets */; };
 		2F7505A11E53C3CD00582202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F75059F1E53C3CD00582202 /* LaunchScreen.storyboard */; };
+		2F7505A91E53C52D00582202 /* ChangeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7505A81E53C52D00582202 /* ChangeTableViewController.swift */; };
+		2F7505AB1E53CDAA00582202 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F7505AA1E53CDAA00582202 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2F75059D1E53C3CD00582202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7505A01E53C3CD00582202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7505A21E53C3CD00582202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7505A81E53C52D00582202 /* ChangeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeTableViewController.swift; sourceTree = "<group>"; };
+		2F7505AA1E53CDAA00582202 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2F75059D1E53C3CD00582202 /* Assets.xcassets */,
 				2F75059F1E53C3CD00582202 /* LaunchScreen.storyboard */,
 				2F7505A21E53C3CD00582202 /* Info.plist */,
+				2F7505A81E53C52D00582202 /* ChangeTableViewController.swift */,
+				2F7505AA1E53CDAA00582202 /* Settings.bundle */,
 			);
 			path = SettingsDemo;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7505AB1E53CDAA00582202 /* Settings.bundle in Resources */,
 				2F7505A11E53C3CD00582202 /* LaunchScreen.storyboard in Resources */,
 				2F75059E1E53C3CD00582202 /* Assets.xcassets in Resources */,
 				2F75059C1E53C3CD00582202 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7505A91E53C52D00582202 /* ChangeTableViewController.swift in Sources */,
 				2F7505991E53C3CD00582202 /* ViewController.swift in Sources */,
 				2F7505971E53C3CD00582202 /* AppDelegate.swift in Sources */,
 			);
